@@ -32,6 +32,11 @@ You should see the following on the screen:
 This documentation is longer than the source code.
 
 
+## Useful reading
+
+* [GitHub's starter-workflows] project.
+
+
 ["Hello, World!" program]: https://en.wikipedia.org/wiki/%22Hello,_World!%22_program
 [C]: https://en.wikipedia.org/wiki/C_(programming_language)
 [make]: https://www.gnu.org/software/make/
@@ -40,3 +45,5 @@ This documentation is longer than the source code.
 
 [build-log]:    https://github.com/rudymatela/hello-c/actions/workflows/build.yml
 [build-status]: https://github.com/rudymatela/hello-c/actions/workflows/build.yml/badge.svg
+
+[GitHub's starter-workflows]: https://github.com/actions/starter-workflows

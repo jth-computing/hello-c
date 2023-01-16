@@ -27,6 +27,12 @@ You should see the following on the screen:
 	Hello, World!
 
 
+## Important files
+
+* [src/hello.c](src/hello.c)
+* [Makefile](Makefile)
+
+
 ## Known bugs
 
 This documentation is longer than the source code.

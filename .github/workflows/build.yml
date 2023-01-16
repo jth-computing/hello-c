@@ -5,11 +5,7 @@
 # https://github.com/actions/starter-workflows/blob/main/ci/c-cpp.yml
 
 name: build
-on:
-  push:
-    branches: [ $default-branch ]
-  pull_request:
-    branches: [ $default-branch ]
+on: [push, pull_request]
 
 jobs:
   build:

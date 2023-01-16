@@ -1,0 +1,19 @@
+# GitHub actions workflow for a simple C project
+
+# some docs:
+# https://github.com/actions/starter-workflows/
+# https://github.com/actions/starter-workflows/blob/main/ci/c-cpp.yml
+
+name: build
+on:
+  push:
+    branches: [ $default-branch ]
+  pull_request:
+    branches: [ $default-branch ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+  steps:
+    - uses: actions/checkout@v3
+    - run: gcc --version

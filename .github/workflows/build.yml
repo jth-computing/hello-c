@@ -16,3 +16,7 @@ jobs:
     - run: make --version
     - run: make
     - run: make run
+    - uses: actions/upload-artifact@v3
+      with:
+        name: hello.exe
+        path: src/hello
